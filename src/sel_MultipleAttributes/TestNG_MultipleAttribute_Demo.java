@@ -10,10 +10,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 
+//this is my second commit//
 public class TestNG_MultipleAttribute_Demo {
 	public WebDriver driver;
   @Test
   public void f() {
+
+	//this is my second commit//
 	  driver.findElement(By.id("fullLoginEmail")).click();
 	  driver.findElement(By.id("fullLoginPassword")).click();
   }
